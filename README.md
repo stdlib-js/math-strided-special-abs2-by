@@ -50,13 +50,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import abs2By from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-abs2-by@deno/mod.js';
+import abs2By from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-abs2-by@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-abs2-by@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-abs2-by@v0.1.0-deno/mod.js';
 ```
 
 #### abs2By( N, x, strideX, y, strideY, clbk\[, thisArg] )
@@ -222,7 +222,7 @@ abs2By.ndarray( 3, x, 2, 1, y, -1, y.length-1, accessor );
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import abs2By from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-abs2-by@deno/mod.js';
+import abs2By from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-abs2-by@v0.1.0-deno/mod.js';
 
 function accessor( v, i ) {
     if ( (i%3) === 0 ) {
